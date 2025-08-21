@@ -7,3 +7,16 @@ app = FastAPI()
 @app.get("/greet")
 async def greet():
     return "Hello World"
+
+
+
+
+
+
+
+
+
+
+@app.get("/")
+def hello():
+    return "hii Ali"
