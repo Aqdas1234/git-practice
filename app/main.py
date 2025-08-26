@@ -14,13 +14,6 @@ def get_items():
 
 
 
-
-
-
-
-
-
-
 @app.get("/")
 def hello():
     return "hii Ali"
